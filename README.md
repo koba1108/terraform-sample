@@ -23,3 +23,10 @@ $ brew install tfenv
 $ tfenv install 1.4.4
 $ tfenv use 1.4.4
 ```
+
+### 4. install tflint
+```shell
+$ brew install pre-commit
+$ brew install tflint
+$ brew install tfsec
+```
