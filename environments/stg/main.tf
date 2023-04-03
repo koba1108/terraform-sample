@@ -2,5 +2,5 @@
 # S3, dynamodb, lambda
 
 module "s3" {
-  source = "./modules/s3"
+  source = "../../modules/s3"
 }
