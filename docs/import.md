@@ -18,6 +18,12 @@ $ terraform plan
 
 ### 3. 差分がなくなるようにmoduleを修正する
 
+terraformerで既存のリソースをgenerateすると作業効率良さそう。
+```shell
+terraformer import aws --resources=s3 --regions=${region} --profile=${profile} --filter=${s3-bucket-name}
+```
+
+
 ### 4. terraform apply でリソースを反映する
 
 ```shell
